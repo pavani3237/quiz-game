@@ -8,13 +8,18 @@ The user can use create command to create a quiz, take command to take the quiz,
 
 The quiz game is Command Line User Interface system. The system uses the while loop, for loop, HashMap class and Scanner class. Specified methods, such as createQuiz(), takeQuiz(), viewQuiz() and listQuiz() are used to handle the commands. Using the HashMap class and array list the quiz questions and answers are inserted into the game.
 Methods used in the project:
+
 1.createQuiz():
+
 If the user gives the command to create a quiz, this method is triggered. The method initially asks for the name of the quiz, the number of questions to be added, and choices of each question, and the correct answer to the question. Once the quiz is created message is displayed.
 
+
 2.takeQuiz():
+
 If the user wishes to play the quiz game, the take command is used. takeQuiz() method is invoked when the take command is given to the system. Initially, the system will ask on which topic the user wants to play the quiz game. The questions are displayed with options for the given topic. At last, the achieved score is displayed to the user.
 
 3.viewQuiz():
+
 When the user gives view command to the system, the viewQuiz() method is triggered. Initially the method asks the name of the quiz, and if it is found it displays the quiz questions and its answer to the users otherwise the not found message is displayed.
 
 4.listQuiz():
